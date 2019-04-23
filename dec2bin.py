@@ -1,3 +1,7 @@
 a= int(input("digite um número:"))
+b= int(input("digite um número:"))
 print("o valor {} corresponde a".format(a))
 print("{0:b} em binário".format(a))
+print("o valor {} corresponde a".format(b))
+print("{0:b} em binário".format(b))
+print("e a soma deles corresponde a {0:b}".format(a+b))

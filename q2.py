@@ -1,9 +1,7 @@
 def notas():
-   n= input("digite suas notas: ")
-   while True:
-       n= input("digite suas notas: ")
-       nota= n
-       print(n)
+    notas= [3,4,5,6,3]
+    for i in notas:
+        print(i,i*10/max(notas))
     
-
+            
 notas()
